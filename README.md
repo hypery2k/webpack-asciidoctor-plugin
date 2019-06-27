@@ -1,1 +1,2 @@
-# webpack-asciidoctor-plugin
+# WebPack Plugin for AsciiDoc
+

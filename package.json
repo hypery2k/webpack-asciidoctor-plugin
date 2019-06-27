@@ -1,0 +1,38 @@
+{
+  "name": "webpack-asciidoctor-plugin",
+  "version": "0.1.2",
+  "description": "WebPack Plugin for AsciiDoc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypery2k/webpack-asciidoctor-plugin.git"
+  },
+  "keywords": [
+      "reveal.js",
+      "webpack",
+      "plugin",
+      "html",
+      "html-webpack-plugin"
+  ],
+  "author": "Martin Reinhardt",
+  "license": "MIT",
+  "engine-strict": true,
+  "engines": {
+      "node": ">= 8",
+      "npm": ">= 5"
+  },
+  "bugs": {
+    "url": "https://github.com/hypery2k/webpack-asciidoctor-plugin/issues"
+  },
+  "homepage": "https://github.com/hypery2k/webpack-asciidoctor-plugin#readme",
+  "dependencies": {
+    "asciidoctor.js": "^1.5.9",
+    "chalk": "^2.4.2",
+    "glob": "^7.1.4",
+    "lodash": "^4.17.11",
+    "parse5": "^5.1.0"
+  }
+}
