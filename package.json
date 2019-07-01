@@ -1,6 +1,6 @@
 {
   "name": "webpack-asciidoctor-plugin",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "WebPack Plugin for AsciiDoc",
   "main": "index.js",
   "scripts": {
@@ -10,13 +10,12 @@
     "test": "npm run jasmine-test",
     "jasmine-test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
     "jasmine-test:watch": "nodemon jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
-    "jasmine-test:debug": "node --inspect-brk -i node_modules/jasmine/bin/jasmine.js spec/prometheus.spec.js", 
+    "jasmine-test:debug": "node --inspect-brk -i node_modules/jasmine/bin/jasmine.js spec/prometheus.spec.js",
     "release": "npm run test",
     "release:major": "npm run release && npm version major && npm run version-and-push",
     "release:minor": "npm run release && npm version minor && npm run version-and-push",
     "release:patch": "npm run release && npm version patch && npm run version-and-push",
     "version-and-push": "npm run changelog && npm run changelog:add && git push origin && git push origin --tags && git checkout master && git merge develop && git push && git checkout develop"
-
   },
   "repository": {
     "type": "git",
