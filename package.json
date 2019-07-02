@@ -1,6 +1,6 @@
 {
   "name": "webpack-asciidoctor-plugin",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "WebPack Plugin for AsciiDoc",
   "main": "index.js",
   "scripts": {
