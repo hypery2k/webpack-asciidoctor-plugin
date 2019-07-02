@@ -1,16 +1,15 @@
-const AsciiDocPlugin = require('../../lib/plugin');
+const Converter = require('../../lib/converter');
 
 describe('config', () => {
-  let plugin;
+  let converter;
   /* eslint no-debugger: "off" */
   debugger;
 
   beforeEach(() => {
-    plugin = new AsciiDocPlugin();
+    converter = new Converter();
   });
 
   it('should init with default values', () => {
-    expect(plugin).toBeDefined();
+    expect(converter).toBeDefined();
   });
-
 });

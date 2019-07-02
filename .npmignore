@@ -66,3 +66,5 @@ webpack.config.js
 .editorconfig
 
 /factories
+example
+test
