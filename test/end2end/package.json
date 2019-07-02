@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf dist",
-    "test": "npm run build && npm run jest",
+    "clean": "rm -rf dist && npm i",
+    "test": "npm run clean && npm run build && npm run jest",
     "jest": "jest",
     "build": "mkdir -p dist && webpack --mode production"
   },
