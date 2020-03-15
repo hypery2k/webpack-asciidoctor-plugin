@@ -33,7 +33,7 @@
     "reveald3": "^1.5.4"
   },
   "devDependencies": {
-    "acorn": "^6.1.1",
+    "acorn": "^6.4.1",
     "asciidoctor-reveal.js": "^2.0.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
